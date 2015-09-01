@@ -1,0 +1,18 @@
+@import "pages/home";
+
+$margin: 20px;
+$red: #ee5932;
+
+body {
+  margin-top: $margin * 2;
+}
+
+label {
+  font-weight: 300;
+  strong {
+    color: $red;
+  }
+}
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
